@@ -1,5 +1,5 @@
 FROM       ubuntu:16.04
-MAINTAINER Jinwoo Han "https://github.com/xiote78"
+MAINTAINER Jinwoo Han "https://github.com/xiote"
 
 RUN apt-get update && apt-get install -y openssh-server
 RUN mkdir /var/run/sshd
